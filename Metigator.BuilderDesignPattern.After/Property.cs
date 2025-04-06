@@ -3,7 +3,7 @@
     // Product
     public class Property // عقار
     {
-        public string Address { get; set; }
+        public string Address { get; set; } = string.Empty;
         public TransactionType TransactionType { get; set; }
         public PropertyType PropertyType { get; set; }
         public int TotalBedrooms { get; set; }
